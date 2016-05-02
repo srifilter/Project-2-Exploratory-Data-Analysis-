@@ -10,6 +10,19 @@ For each year and for each type of PM source, the NEI records how many tons of P
 Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? Using the base plotting system, make a plot showing the total PM2.5 emission from all sources for each of the years 1999, 2002, 2005, and 2008.
 ## Answer 1
 ![alt tag](https://github.com/srifilter/Project-2-Exploratory-Data-Analysis-/blob/master/plot1.png)
+
  As you can see from "plot1.png", total emissions have decreased in the US from 1999 to 2008
- 
- 
+ ##Question 2
+ Have total emissions from PM2.5 decreased in the Baltimore City, Maryland (fips == "24510") from 1999 to 2008? Use the base plotting system to make a plot answering this question.
+ ## Answer 2
+![alt tag](https://github.com/srifilter/Project-2-Exploratory-Data-Analysis-/blob/master/plot2.png)
+
+Overall total emissions from PM2.5 have decreased in Baltimore city, Maryland from 1999 to 2008.
+
+##Question 3
+Of the four types of sources indicated by the type (point, nonpoint, onroad, nonroad) variable, which of these four sources have seen decreases in emissions from 1999–2008 for Baltimore City? Which have seen increases in emissions from 1999–2008? Use the ggplot2 plotting system to make a plot answer this question.
+## Answer 3
+![alt tag](https://github.com/srifilter/Project-2-Exploratory-Data-Analysis-/blob/master/plot3.png)
+
+As you can see from the above plot, the non-road, on-road source types have all seen decreased emissions overall from 1999-2008. Also note that the point source saw a significant increase until 2005 at which point has decreased again by 2008 to just above the starting values.
+
