@@ -9,8 +9,7 @@ For each year and for each type of PM source, the NEI records how many tons of P
 ##Question 1
 Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? Using the base plotting system, make a plot showing the total PM2.5 emission from all sources for each of the years 1999, 2002, 2005, and 2008.
 ## Answer 1
-
-
+![alt tag](https://github.com/srifilter/Project-2-Exploratory-Data-Analysis-/blob/master/plot1.png)
  As you can see from "plot1.png", total emissions have decreased in the US from 1999 to 2008
  
  
