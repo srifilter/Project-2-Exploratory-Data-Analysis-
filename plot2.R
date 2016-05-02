@@ -1,0 +1,7 @@
+NEI<-readRDS("summarySCC_PM25.rds")
+SCC<-readRDS("Source_Classification_Code.rds")
+balt<-subset(NEI,fips=="24510")
+balttot<-tapply(balt$Emissions,balt$year,sum)
+plot(names(balttot), balttot, xlab="Year", ylab="PM2.5 Emissions", main= expression(" Total Baltimore"~PM[2.5]~"Emissions (tons)", type="l", lty=6, pch= 19, col="red"))
+dev.copy(png, file="plot2.png", height=480, width=480)
+dev.off()

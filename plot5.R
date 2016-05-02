@@ -1,0 +1,8 @@
+library(ggplot2)
+NEI<-readRDS("summarySCC_PM25.rds")
+SCC<-readRDS("Source_Classification_Code.rds")
+motor<-subset(NEI, fips=="24510" & type=="ON-ROAD")
+motortot<-tapply(motor$Emissions,motor$year,sum)
+plot(names(motortot), motortot, xlab="Year", ylab="Emission Levels", main= expression("Motor vehicle related emissions in baltimore county"), type="l", pch="19", col="blue")
+dev.copy(png, file="plot5.png", height=480, width=480)
+dev.off()
